@@ -2,7 +2,7 @@ node_modules
 .history
 .idea
 dist
-# .fttemplates
+.fttemplates
 
 # OS generated files #
 ######################
