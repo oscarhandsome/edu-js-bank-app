@@ -4,6 +4,6 @@ export default class ChildComponent {
 	 * @return {HTMLLIElement}
 	 */
 	render() {
-		throw new Error('Render method must be implemneted in the child class')
+		throw new Error('Render method must be implemented in the child class')
 	}
 }
