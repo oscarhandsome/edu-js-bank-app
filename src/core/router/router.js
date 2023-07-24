@@ -60,7 +60,7 @@ export class Router {
 
 		if (!this.#layout) {
 			this.#layout = new Layout({
-				layout: this,
+				router: this,
 				children: component
 			}).render()
 

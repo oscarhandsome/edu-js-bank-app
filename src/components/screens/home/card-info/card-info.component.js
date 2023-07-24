@@ -6,7 +6,7 @@ import template from './card-info.template.html'
 
 export class CardInfo extends ChildComponent {
 	render() {
-		this.element = renderService.htmlToelement(template, [], styles)
+		this.element = renderService.htmlToElement(template, [], styles)
 
 		return this.element
 	}
