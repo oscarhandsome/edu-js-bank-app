@@ -5,12 +5,15 @@ import styles from './heading.module.scss'
 import template from './heading.template.html'
 
 export class Heading extends ChildComponent {
-	constructor() {
-		super({ title: '' })
+	constructor(title = '') {
+		super()
+		this.title = title
 	}
 
 	render() {
 		this.element = renderService.htmlToelement(template, [], styles)
+
+		$R(this.element).text(this.title)
 
 		return this.element
 	}
